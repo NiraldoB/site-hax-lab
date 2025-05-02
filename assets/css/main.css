@@ -3593,7 +3593,7 @@ body.landing #header {
 }
 
 #banner:after {
-	background-color: #011C26;
+	background-color: #00121A;
 	content: '';
 	display: block;
 	height: 100%;
@@ -3611,6 +3611,8 @@ body.landing #header {
 	position: relative;
 	text-align: right;
 	vertical-align: middle;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+	border-radius: 10px;
 	z-index: 1;
 }
 
@@ -3627,6 +3629,7 @@ body.landing #header {
 }
 
 #banner .content header p {
+	color: #F5F7FB;
 	margin: 0.5em 0 0 0;
 	top: 0;
 }
@@ -3638,12 +3641,7 @@ body.landing #header {
 	margin-left: 3em;
 	vertical-align: middle;
 	width: 18em;
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 	transition-duration: .5s;
-}
-
-#banner .content .image:hover{
-	transform: scale(1.03);
 }
 
 #banner .content .image img {
