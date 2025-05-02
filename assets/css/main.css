@@ -1,7 +1,8 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 html,
 body,
@@ -2259,7 +2260,7 @@ article.special {
 }
 
 header p {
-	font-family: "Bruno Ace SC", sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 40;
 	font-style: normal;
 	color: #ffffff;
@@ -3619,7 +3620,9 @@ body.landing #header {
 }
 
 #banner .content header h2 {
-	font-size: 2.5em;
+	font-family: 'Raleway', sans-serif;
+	color: #05C7F2;
+	font-size: 3em;
 	margin: 0;
 }
 
