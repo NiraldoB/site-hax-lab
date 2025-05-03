@@ -3012,6 +3012,8 @@ input[type="button"].primary,
 	background-color: #e44c65;
 	box-shadow: none;
 	color: #ffffff !important;
+	margin-right: 220px;
+	margin-top: 25px;
 }
 
 input[type="submit"].primary:hover,
