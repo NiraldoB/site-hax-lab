@@ -3061,7 +3061,17 @@ input[type="button"]:disabled,
 	height: 100vh;
 	overflow: hidden;
 	position: relative;
+	z-index: 1; /* 👈 Adicione esta linha aqui */
 }
+
+.spotlight.no-image {
+    clear: both;
+    position: relative;
+    z-index: 20 !important;
+    margin-top: 5em; /* ajuste conforme necessário */
+}
+
+
 
 .spotlight:nth-last-of-type(1) {
 	z-index: 1;
@@ -3143,15 +3153,6 @@ input[type="button"]:disabled,
 	z-index: 20;
 }
 
-.spotlight:before {
-	background-image: url("images/overlay.png");
-	content: '';
-	display: block;
-	height: 100%;
-	left: 0;
-	top: 0;
-	width: 100%;
-}
 
 .spotlight .image.main {
 	display: none;
@@ -4228,3 +4229,33 @@ body.is-touch #banner {
 	}
 
 }
+
+.whatsapp-btn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #25D366;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	transition: background 0.3s;
+	z-index: 1000;
+  }
+  
+  .whatsapp-btn:hover {
+	background-color: #1eb15d;
+  }
+  
+  .whatsapp-btn i {
+	font-size: 18px;
+  }
+  
+  
