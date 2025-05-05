@@ -4246,12 +4246,14 @@ body.is-touch #banner {
 	align-items: center;
 	gap: 10px;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-	transition: background 0.3s;
 	z-index: 1000;
+	transition: .5s;
   }
   
   .whatsapp-btn:hover {
 	background-color: #1eb15d;
+	color: aliceblue !important;
+	transform: scale(1.05);
   }
   
   .whatsapp-btn i {
