@@ -3025,18 +3025,6 @@ input[type="button"].primary,
     top: 10px; /* Move 20px pra baixo */
 }
 
-.button.primary2 {
-	background-color: transparent;
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-	color: #00BFFF !important;
-	margin-top: 0.1cm;
-	transition: 1s;
-	font-weight: 700;
-	border: 2px solid #00BFFF;
-	position: relative;
-    top: -10px; /* Move 20px pra baixo */
-}
-
 input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
