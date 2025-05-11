@@ -1,0 +1,144 @@
+body {
+  background-color: #f9fafb;
+  color: #1f2937;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container-cabecalho {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.menu a {
+  margin-left: 1.5rem;
+  color: #4b5563;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #3b82f6;
+}
+
+.apresentacao {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(to right, #3b82f6, #6366f1);
+  color: white;
+}
+
+.apresentacao h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.apresentacao p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.botao-portfolio {
+  background-color: white;
+  color: #2563eb;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.botao-portfolio:hover {
+  background-color: #f3f4f6;
+}
+
+.projetos {
+  padding: 4rem 1.5rem;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.projetos h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.grade-projetos {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.projeto {
+  background-color: white;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projeto img {
+  width: 100%;
+  display: block;
+}
+
+.info-projeto {
+  padding: 1.5rem;
+}
+
+.info-projeto h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.info-projeto p {
+  color: #4b5563;
+}
+
+.contato {
+  background-color: #f9fafb;
+  padding: 4rem 1.5rem;
+}
+
+.container-contato {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.box {
+  margin-top: 2rem;
+}
+
+.contatao {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.contatinho {
+  margin: 0.25rem 0;
+}
+
+.rodape {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}

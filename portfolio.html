@@ -5,86 +5,83 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Portfólio | HexLab</title>
-	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
 
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body>
 
 	<!-- Cabeçalho -->
-	<header class="bg-white shadow-md">
-		<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-			<h1 class="text-2xl font-bold text-blue-600">HexLab</h1>
-			<nav class="space-x-6">
-				<a href="index.html" class="text-gray-600 hover:text-blue-500">Home</a>
-				<a href="#four" class="text-gray-600 hover:text-blue-500">Contato</a>
+	<header class="cabecalho">
+		<div class="container-cabecalho">
+			<h1 class="logo">HexLab</h1>
+			<nav class="menu">
+				<a href="index.html">Home</a>
+				<a href="#four">Contato</a>
 			</nav>
 		</div>
 	</header>
 
-	<!-- Seção de Apresentação -->
-	<section class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
-		<h2 class="text-4xl font-bold mb-4">Transformamos ideias em soluções digitais</h2>
-		<p class="text-lg mb-8">Criamos sites e aplicativos modernos, funcionais e personalizados.</p>
-		<a href="#projetos"
-			class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold shadow-md hover:bg-gray-100">
-			Ver Portfólio
-		</a>
+	<!-- Apresentação -->
+	<section class="apresentacao">
+		<h2>Transformamos ideias em soluções digitais</h2>
+		<p>Criamos sites e aplicativos modernos, funcionais e personalizados.</p>
+		<a href="#projetos" class="botao-portfolio">Ver Portfólio</a>
 	</section>
 
 	<!-- Projetos -->
-	<section id="projetos" class="py-16 max-w-7xl mx-auto px-6">
-		<h3 class="text-3xl font-bold text-center mb-12">Nossos Projetos</h3>
-		<div class="grid md:grid-cols-3 gap-8">
+	<section id="projetos" class="projetos">
+		<h3>Nossos Projetos</h3>
+		<div class="grade-projetos">
 			<!-- Projeto 1 -->
-			<div class="bg-white rounded-xl shadow-md overflow-hidden">
-				<img src="https://via.placeholder.com/400x250" alt="Projeto 1" class="w-full">
-				<div class="p-6">
-					<h4 class="text-xl font-bold mb-2">Site Institucional - EcoCorp</h4>
-					<p class="text-gray-600">Site responsivo para uma empresa sustentável com foco em UX e SEO.</p>
+			<div class="projeto">
+				<img src="https://via.placeholder.com/400x250" alt="Projeto 1">
+				<div class="info-projeto">
+					<h4>Site Institucional - EcoCorp</h4>
+					<p>Site responsivo para uma empresa sustentável com foco em UX e SEO.</p>
 				</div>
 			</div>
 			<!-- Projeto 2 -->
-			<div class="bg-white rounded-xl shadow-md overflow-hidden">
-				<img src="https://via.placeholder.com/400x250" alt="Projeto 2" class="w-full">
-				<div class="p-6">
-					<h4 class="text-xl font-bold mb-2">App Mobile - FitLife</h4>
-					<p class="text-gray-600">Aplicativo fitness com integração de APIs e notificações push.</p>
+			<div class="projeto">
+				<img src="https://via.placeholder.com/400x250" alt="Projeto 2">
+				<div class="info-projeto">
+					<h4>App Mobile - FitLife</h4>
+					<p>Aplicativo fitness com integração de APIs e notificações push.</p>
 				</div>
 			</div>
 			<!-- Projeto 3 -->
-			<div class="bg-white rounded-xl shadow-md overflow-hidden">
-				<img src="https://via.placeholder.com/400x250" alt="Projeto 3" class="w-full">
-				<div class="p-6">
-					<h4 class="text-xl font-bold mb-2">Dashboard Web - DataTrack</h4>
-					<p class="text-gray-600">Painel administrativo para análise de dados em tempo real.</p>
+			<div class="projeto">
+				<img src="https://via.placeholder.com/400x250" alt="Projeto 3">
+				<div class="info-projeto">
+					<h4>Dashboard Web - DataTrack</h4>
+					<p>Painel administrativo para análise de dados em tempo real.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Contato -->
-	<section id="four" class="wrapper style1 special fade-up">
-		<div class="container">
-			<header class="major">
+	<section id="four" class="contato">
+		<div class="container-contato">
+			<header>
 				<h2>Contatos:</h2>
 			</header>
-			<div class="box alt">
+			<div class="box">
 				<div id="email">
-					<h2 class="contatao">Emaill:</h2>
+					<h2 class="contatao">Email:</h2>
 					<p class="contatinho">haxlab497@gmail.com</p>
 				</div>
-				</p>
 				<div id="numero">
 					<h2 class="contatao">Números:</h2>
 					<p class="contatinho">(81) 99665-4602</p>
 					<p class="contatinho">(81) 99177-2754</p>
 				</div>
 			</div>
+		</div>
 	</section>
 
 	<!-- Rodapé -->
-	<footer class="bg-gray-800 text-white text-center py-6">
-		<p>&copy; 2025 StartupTech. Todos os direitos reservados.</p>
+	<footer class="rodape">
+		<p>&copy; 2025 HexLab. Todos os direitos reservados.</p>
 	</footer>
 
 </body>
