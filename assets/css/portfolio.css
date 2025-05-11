@@ -1,3 +1,9 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
   background-color: #f9fafb;
   color: #1f2937;
@@ -7,8 +13,9 @@ body {
 }
 
 .cabecalho {
-  background-color: #ffffff;
+  background-color: #00121A;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .container-cabecalho {
@@ -22,8 +29,7 @@ body {
 
 .logo {
   font-size: 1.5rem;
-  font-weight: bold;
-  color: #2563eb;
+  color: #F5F7FB;
 }
 
 .menu a {
@@ -39,7 +45,7 @@ body {
 .apresentacao {
   text-align: center;
   padding: 5rem 1rem;
-  background: linear-gradient(to right, #3b82f6, #6366f1);
+  background: #00121A;
   color: white;
 }
 
@@ -55,17 +61,26 @@ body {
 }
 
 .botao-portfolio {
-  background-color: white;
-  color: #2563eb;
-  padding: 0.75rem 1.5rem;
-  border-radius: 9999px;
-  font-weight: 600;
-  text-decoration: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    background-color: transparent;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+	color: #00BFFF !important;
+	margin-top: 0.1cm;
+	transition: 1s;
+	font-weight: 700;
+	border: 2px solid #00BFFF;
+	position: relative;
+    top: 10px; 
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .botao-portfolio:hover {
-  background-color: #f3f4f6;
+    background-color: #00BFFF;
+	transform: scale(1.03);
+	box-shadow: 0 0 2.5px #00BFFF, 0 0 5px #00BFFF;
+	color: #00121A !important;
 }
 
 .projetos {
