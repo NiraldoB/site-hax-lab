@@ -2,95 +2,129 @@
 <html lang="pt-BR">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Portfólio | HexLab</title>
-	<link rel="stylesheet" href="assets/css/portfolio.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | HexLab</title>
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+  <link rel="icon" href="images/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+
+  </style>
 </head>
 
 <body>
 
-	<!-- Cabeçalho -->
-	<header class="cabecalho">
-		<div class="container-cabecalho">
-			<h1 class="logo">HexLab</h1>
-			<nav class="menu">
-				<a href="index.html">Home</a>
-				<a href="#four" class="scrolly">Contato</a>
-			</nav>
-		</div>
-	</header>
+  <!-- Cabeçalho -->
+  <header class="cabecalho">
+    <div class="container-cabecalho">
+      <h1 class="logo">HexLab</h1>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="#four" class="scrolly">Contato</a>
+      </nav>
+    </div>
+  </header>
 
-	<!-- Apresentação -->
-	<section class="apresentacao">
-		<h2>Transformamos ideias em soluções digitais</h2>
-		<p>Criamos sites e aplicativos modernos, funcionais e personalizados.</p>
-		<a href="#projetos" class="botao-portfolio scrolly">Ver Portfólio</a>
-	</section>
+  <!-- Apresentação -->
+  <section class="apresentacao">
+    <h2>Transformamos ideias em soluções digitais</h2>
+    <p>Criamos sites e aplicativos modernos, funcionais e personalizados.</p>
+    <a href="#projetos" class="botao-portfolio scrolly">Ver Portfólio</a>
+  </section>
 
-	<!-- Projetos -->
-	<section id="projetos" class="projetos">
-		<h3>Nossos Projetos</h3>
-		<div class="grade-projetos">
-			<!-- Projeto 1 -->
-			<div class="projeto">
-				<img src="https://via.placeholder.com/400x250" alt="Projeto 1">
-				<div class="info-projeto">
-					<h4>Site Institucional - EcoCorp</h4>
-					<p>Site responsivo para uma empresa sustentável com foco em UX e SEO.</p>
-				</div>
-			</div>
-			<!-- Projeto 2 -->
-			<div class="projeto">
-				<img src="https://via.placeholder.com/400x250" alt="Projeto 2">
-				<div class="info-projeto">
-					<h4>App Mobile - FitLife</h4>
-					<p>Aplicativo fitness com integração de APIs e notificações push.</p>
-				</div>
-			</div>
-			<!-- Projeto 3 -->
-			<div class="projeto">
-				<img src="https://via.placeholder.com/400x250" alt="Projeto 3">
-				<div class="info-projeto">
-					<h4>Dashboard Web - DataTrack</h4>
-					<p>Painel administrativo para análise de dados em tempo real.</p>
-				</div>
-			</div>
-		</div>
-	</section>
+  <!-- Projetos -->
+  <section id="projetos" class="projetos">
+    <h3>Nossos Projetos</h3>
+    <div class="grade-projetos">
+      <!-- Projeto 1 -->
+      <div class="projeto">
+        <img src="https://via.placeholder.com/400x250" alt="Projeto 1">
+        <div class="info-projeto">
+          <h4>Site Institucional - EcoCorp</h4>
+          <p>Site responsivo para uma empresa sustentável com foco em UX e SEO.</p>
+          <button class="botao-demo" onclick="abrirDemo('demos/ecocorp/index.html')">Demo</button>
+        </div>
+      </div>
+      <!-- Projeto 2 -->
+      <div class="projeto">
+        <img src="https://via.placeholder.com/400x250" alt="Projeto 2">
+        <div class="info-projeto">
+          <h4>App Mobile - FitLife</h4>
+          <p>Aplicativo fitness com integração de APIs e notificações push.</p>
+          <button class="botao-demo" onclick="abrirDemo('demos/fitlife/index.html')">Demo</button>
+        </div>
+      </div>
+      <!-- Projeto 3 -->
+      <div class="projeto">
+        <img src="https://via.placeholder.com/400x250" alt="Projeto 3">
+        <div class="info-projeto">
+          <h4>Dashboard Web - DataTrack</h4>
+          <p>Painel administrativo para análise de dados em tempo real.</p>
+          <button class="botao-demo" onclick="abrirDemo('demos/datatrack/index.html')">Demo</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<!-- Contato -->
-	<section id="four" class="contato">
-		<div class="container-contato">
-			<header>
-				<h2>Contatos:</h2>
-			</header>
-			<div class="box">
-				<div id="email">
-					<h2 class="contatao">Email:</h2>
-					<p class="contatinho">haxlab497@gmail.com</p>
-				</div>
-				<div id="numero">
-					<h2 class="contatao">Números:</h2>
-					<p class="contatinho">(81) 99665-4602</p>
-					<p class="contatinho">(81) 99177-2754</p>
-				</div>
-			</div>
-		</div>
-	</section>
+  <!-- Contato -->
+  <section id="four" class="contato">
+    <div class="container-contato">
+    <header class="major">
+    <h2>Contatos:</h2>
+    </header> 
+      <div class="box">
+        <div id="email">
+          <h2 class="contatao">Email:</h2>
+          <p class="contatinho">haxlab497@gmail.com</p>
+        </div>
+        <div id="numero">
+          <h2 class="contatao">Números:</h2>
+          <p class="contatinho">(81) 99665-4602</p>
+          <p class="contatinho">(81) 99177-2754</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<!-- Rodapé -->
-	<footer class="rodape">
-		<p>&copy; 2025 HexLab. Todos os direitos reservados.</p>
-	</footer>
+  
+  <!-- Modal de Demo -->
+  <div id="demoModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); z-index:999;">
+    <div style="position:relative; width:90%; height:90%; margin:5% auto; background:#fff; border-radius:8px; overflow:hidden;">
+      <button onclick="fecharDemo()" style="position:absolute; top:10px; right:10px; z-index:1000; background:#000; color:#fff; border:none; padding:10px 15px; cursor:pointer;">Fechar</button>
+      <iframe id="demoIframe" style="width:100%; height:100%; border:none;"></iframe>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <p>&copy; 2025 HexLab. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    function abrirDemo(url) {
+      document.getElementById("demoIframe").src = url;
+      document.getElementById("demoModal").style.display = "block";
+    }
+
+    function fecharDemo() {
+      document.getElementById("demoModal").style.display = "none";
+      document.getElementById("demoIframe").src = "";
+    }
+  </script>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/jquery.dropotron.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <a href="https://wa.me/5581996654602" class="whatsapp-btn" target="_blank" rel="noopener">
+		<i class="fab fa-whatsapp"></i> Faça seu orçamento
+	</a>
 
 </body>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/main.js"></script>
 
 </html>
